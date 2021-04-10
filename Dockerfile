@@ -76,7 +76,7 @@ ENV CLEAN_AFTER_BUILD true
 ENV WITH_SU false
 
 # Provide a default JACK configuration in order to avoid out-of-memory issues
-ENV ANDROID_JACK_VM_ARGS "-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx8G"
+ENV ANDROID_JACK_VM_ARGS "-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx24g"
 
 # Custom packages to be installed
 ENV CUSTOM_PACKAGES ''
@@ -111,7 +111,7 @@ ENV DELETE_OLD_ZIPS 0
 ENV DELETE_OLD_LOGS 0
 
 # set the java tool options max memory size
-ENV JAVA_TOOL_OPTIONS "-Xmx12g"
+ENV JAVA_TOOL_OPTIONS "-Xmx24g"
 
 # You can optionally specify a USERSCRIPTS_DIR volume containing these scripts:
 #  * begin.sh, run at the very beginning

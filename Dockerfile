@@ -110,9 +110,6 @@ ENV DELETE_OLD_ZIPS 0
 # Delete old logs in $LOGS_DIR, keep only the N latest one (0 to disable)
 ENV DELETE_OLD_LOGS 0
 
-# set the java tool options max memory size
-# ENV JAVA_TOOL_OPTIONS "-Xmx12g"
-
 # You can optionally specify a USERSCRIPTS_DIR volume containing these scripts:
 #  * begin.sh, run at the very beginning
 #  * before.sh, run after the syncing and patching, before starting the builds

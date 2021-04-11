@@ -76,7 +76,7 @@ ENV CLEAN_AFTER_BUILD true
 ENV WITH_SU false
 
 # Provide a default JACK configuration in order to avoid out-of-memory issues
-ENV ANDROID_JACK_VM_ARGS "-Dfile.encoding=UTF-8 -XX:-TieredCompilation -XX:CICompilerCount=2 -Djack.server.max-service=2 -Xmx8g"
+ENV ANDROID_JACK_VM_ARGS "-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
 
 # Custom packages to be installed
 ENV CUSTOM_PACKAGES ''
